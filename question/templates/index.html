@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>移民评估</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link type="text/css" href="{{ url_for('static',filename='styles/swiper.min.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static',filename='styles/bootstrap.css') }}" rel="stylesheet">
+    <link type="text/css" href="{{ url_for('static',filename='styles/animation.css') }}" rel="stylesheet">
+    <!-- Demo styles -->
+
+</head>
+<body>
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page1">
+            <div class="light visible-md visible-lg"></div>
+            <div class="sun visible-md  visible-lg"></div>
+            <div class="dtcontainer">
+                <div class="bigtitle lr"><img src="{{ url_for('static',filename='images/t1.png') }}"></div>
+                <div class="gq rl">
+                    <ul class="select-nav-1">
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq1.png') }}"><span>葡萄牙</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq2.png') }}"><span>美国</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq3.png') }}"><span>加拿大</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq4.png') }}"><span>希腊</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq5.png') }}"><span>匈牙利</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq6.png') }}"><span>塞浦路斯</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq7.png') }}"><span>西班牙</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq8.png') }}"><span>美国</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq9.png') }}"><span>澳大利亚</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq10.png') }}"><span>新西兰</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq11.png') }}"><span>新加坡</span></li>
+                        <li class="col-sm-2 col-xs-3"><img
+                                src="{{ url_for('static',filename='images/gq12.png') }}"><span>其他国家</span></li>
+                    </ul>
+                </div>
+                <div class="wave wave1">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="chuan"><img src="{{ url_for('static',filename='images/chuan.png') }}"></div>
+                <div class="wave wave2">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="haidao visible-md  visible-lg"><img
+                        src="{{ url_for('static',filename='images/haidao.png') }}"></div>
+                <div class="cloud-06 cloud1 "><img
+                        src="{{ url_for('static',filename='images/T1ImSpFaNeXXck7YsJ-543-107.png') }}"></div>
+                <div class="cloud-06 cloud2"><img
+                        src="{{ url_for('static',filename='images/T1UbStFc4XXXbDUzPf-882-120.png') }}"></div>
+                <div style="height:80px;"></div>
+                <!--<div class="earth"> <img src="images/erath.png" class=""></div> --> </div>
+        </div>
+        <div class="swiper-slide page2">
+            <div class="sun visible-md  visible-lg"></div>
+            <div class="dtcontainer">
+                <div class="bigtitle lr"><img src="{{ url_for('static',filename='images/t2.png') }}"></div>
+                <div class="gq rl">
+                    <ul>
+                        <li class="col-sm-4 col-xs-6 active"><img
+                                src="{{ url_for('static',filename='images/znjy.png') }}" title="子女教育"></li>
+                        <li class="col-sm-4 col-xs-6"><img src="{{ url_for('static',filename='images/bhzc.png') }}"
+                                                           title="保护资产"></li>
+                        <li class="col-sm-4 col-xs-6"><img src="{{ url_for('static',filename='images/hwzc.png') }}"
+                                                           title="海外资产"></li>
+                        <li class="col-sm-4 col-xs-6"><img src="{{ url_for('static',filename='images/qzzy.png') }}"
+                                                           title="签证自由"></li>
+                        <li class="col-sm-4 col-xs-6"><img src="{{ url_for('static',filename='images/flbz.png') }}"
+                                                           title="福利保障"></li>
+                        <li class="col-sm-4 col-xs-6"><img src="{{ url_for('static',filename='images/hjss.png') }}"
+                                                           title="环境舒适"></li>
+
+                    </ul>
+                </div>
+                <div class="fengjing"><img src="{{ url_for('static',filename='images/fj.png') }}"></div>
+                <div class="car">
+                    <!--<div class="car-base"></div>-->
+                    <div class="car-body">
+                        <div class="car-top-back">
+                            <div class="back-curve"></div>
+                        </div>
+                        <div class="car-gate"></div>
+                        <div class="car-top-front">
+                            <div class="wind-sheild"></div>
+                        </div>
+                        <div class="bonet-front"></div>
+                        <div class="stepney"></div>
+                    </div>
+                    <div class="boundary-tyre-cover">
+                        <div class="boundary-tyre-cover-back-bottom"></div>
+                        <div class="boundary-tyre-cover-inner"></div>
+                    </div>
+                    <div class="tyre-cover-front">
+                        <div class="boundary-tyre-cover-inner-front"></div>
+                    </div>
+                    <div class="base-axcel">
+
+                    </div>
+                    <div class="front-bumper"></div>
+                    <div class="tyre">
+                        <div class="gap"></div>
+                    </div>
+                    <div class="tyre front">
+                        <div class="gap"></div>
+                    </div>
+                    <div class="car-shadow"></div>
+                </div>
+                <div class="cao"></div>
+                <div style="height:80px;"></div>
+                <!--<div class="earth"> <img src="images/erath.png" class=""></div> --> </div>
+        </div>
+        <div class="swiper-slide page3">
+            <div class="dtcontainer2">
+                <img src="{{ url_for('static',filename='images/fj2.png') }}" class="feiji">
+                <img src="{{ url_for('static',filename='images/fj1.png') }}" class="feiji2">
+                <div class="bigtitle lr"><img src="{{ url_for('static',filename='images/t3.png') }}"></div>
+                <div class="tzje rl">
+                    <ul>
+                        <li class="col-xs-12 col-md-3 active"><span>25-50w人民币 </span></li>
+                        <li class="col-xs-12 col-md-3"><span>50-100w人民币 </span></li>
+                        <li class="col-xs-12 col-md-3"><span>100-150w人民币</span></li>
+                        <li class="col-xs-12 col-md-3"><span>150w以上人民币 </span></li>
+                    </ul>
+                </div>
+                <div style="height:160px;"></div>
+            </div>
+        </div>
+        <div class="swiper-slide page4">
+            <div class="container">
+                <div class="col-sm-6 lr bdtitle"><img src="{{ url_for('static',filename='images/dh_left.png') }}"></div>
+                <div class="col-sm-6 rl bdtitle">
+                    <img src="{{ url_for('static',filename='images/dh_right.png') }}">
+                    <form action="{{ url_for('main.post') }}" method="post">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td valign="top" class="tttext">电话 ：</td>
+                                <td valign="top"><input name="phone" type="text" class="input" required>
+                                    <p class="text-left white">请输入电话</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="tttext">称呼 ：</td>
+                                <td valign="top"><input name="name" type="text" class="input" required>
+                                    <p class="text-left white">请舒服称呼</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <input type="hidden" id="activeThing" name="activeThing"/>
+                            </tr>
+                            <tr>
+                                <td valign="top"></td>
+                                <td align="left" valign="top"><input name="" type="submit" value="提交" class="bigbtn">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/jquery-2.2.3.min.js') }}"></script>
+
+<!-- Swiper JS -->
+<script src="{{ url_for('static',filename='scripts/swiper.min.js') }}"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        onlyExternal: true,
+        spaceBetween: 30,
+        prevButton: '.swiper-button-prev',
+        nextButton: '.swiper-button-next',
+        paginationClickable: true,
+        spaceBetween: 30,
+        mousewheelControl: true,
+        flip: {
+            slideShadows: true,
+            limitRotation: true,
+        }
+    });
+    var selector = '.select-nav-1 li';
+    $(selector).on('click', function () {
+        $(selector).removeClass('active');
+        $(this).addClass('active');
+        swiper.slideNext();
+
+    });
+    $("ul li.col-sm-2.col-xs-3").click(function(){
+    $("#activeThing").val($(this).find("span").text());
+    });
+</script>
+</body>
+</html>
