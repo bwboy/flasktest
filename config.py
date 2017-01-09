@@ -8,6 +8,9 @@ class config:
 
 class DevelopmentConfig(config):
     DEBUG = True
+    MONGODB_DB = 'flasktest'
+    MONGODB_HOST = '127.0.0.1'
+    MONGODB_PORT = 127017
 
 config = {
     'development':DevelopmentConfig,
